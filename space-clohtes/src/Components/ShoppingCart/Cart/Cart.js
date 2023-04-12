@@ -1,10 +1,20 @@
-import Items from "../Items/Items"
+import Items from "../Items/Items";
+
+import { Container } from "./cartStyle";
 
 export default function Cart () {
     return (
-        <div>
-            <p> Cart </p>
+        <Container>
+            <div>
+                <h2> Cart </h2>
+            </div>
+
+
             <Items />
-        </div>
+
+        </Container>
+
+
     )
 };
+
