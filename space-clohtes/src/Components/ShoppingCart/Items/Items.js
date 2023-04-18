@@ -1,8 +1,26 @@
+import React from "react";
+import { Container } from "./itemsStyle";
 
-export default function Items () {
+
+
+export default function Items (props) {
+    
+    const handleRemoveFromCart = (id) => {
+
+    }
+
+
+
+
     return (
-        <div>
-            <p> Items </p>
-        </div>
+        <Container>
+            <div className="items">
+                <p> {props.name} </p>
+                <p> {props.price} </p>
+                <p> {props.quantify} </p>
+                <button onClick={() => handleRemoveFromCart}> Remove From Cart </button>
+            </div>
+        </Container>
+
     )
 };

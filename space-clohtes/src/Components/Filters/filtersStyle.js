@@ -1,29 +1,46 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+.filters {
     border: 1px solid black;
-    padding: 10px;
+    margin: 1em;
+    padding: 1em;
     width: 20rem;
     height: 50rem;
 
     h2 {
         font-size: 40px;
-        padding-bottom: 5px;
-    
+        padding-bottom: 10px;
     }
 
-    Label {
+    p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    label {
         padding-top: 20px;
         font-size: 20px;
-        /* display: flex; */
-        /* flex-direction: column;
-        flex-grow: 1; */
+        padding-bottom: 10em;
+
     }
 
     input {
-        width: 20em;
+        width: 15em;
         height: 2em;
-        /* display: flex; */
+        font-size: 1em;
+        padding: 5px;
+
     }
 
+    select {
+        font-size: 1em;
+        width: 15em;
+        height: 2em;
+    }
+
+
+
+
+}
 `
