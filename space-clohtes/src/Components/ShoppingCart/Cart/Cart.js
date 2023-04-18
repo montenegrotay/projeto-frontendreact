@@ -1,20 +1,17 @@
 import Items from "../Items/Items";
-
 import { Container } from "./cartStyle";
 
+
 export default function Cart () {
+
     return (
         <Container>
-            <div>
+            <div className="cart">
                 <h2> Cart </h2>
+                <Items />
             </div>
-
-
-            <Items />
-
         </Container>
 
 
     )
 };
-
